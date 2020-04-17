@@ -1,20 +1,3 @@
-$(document).ready(function(){
-
-
-  $(window).scroll(function(){
-
-  let st = $(this).scrollTop();
-
-  $('.header__content').css({
-    'transform': 'translate(0%, ' + st/20 + '%'
-  })
-
-
-  $('.header__background').css({
-    'transform': 'translate(0%, ' + st/20 + '%'
-  })
-});
-
 // video-youtube
 var youtube = document.querySelectorAll( ".youtube" );
 for (var i = 0; i < youtube.length; i++) {
