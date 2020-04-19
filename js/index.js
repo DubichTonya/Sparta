@@ -1,4 +1,5 @@
-// video-youtube
+$(document).ready(function() {
+  // video-youtube
 var youtube = document.querySelectorAll( ".youtube" );
 for (var i = 0; i < youtube.length; i++) {
     // var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/sddefault.jpg";
@@ -80,9 +81,5 @@ $("form").submit(function () { //Change
   $('.md-overlay, .md-close').on('click', function (e) {
     $(".md-modal").removeClass('md-show');
   })
-
-
-
-
 
 });
